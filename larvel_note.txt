@@ -1,0 +1,44 @@
+#Download
+composer create-project laravel/laravel blog "10.*"
+
+----------------------------------------------------------------------------------
+
+# Run
+D:\"2023 Learning"\Learning-Laravel\blog
+php artisan serve
+npm run dev
+http://localhost:8000/
+
+----------------------------------------------------------------------------------
+
+# Facade Class
+/vendor/laravel/framework/src/illuminate/Support/Facade
+
+----------------------------------------------------------------------------------
+
+# Routes
+
+## Static Routes &  Dynamic Routes
+/routes/web.php
+
+Learn - Resource Route, View Route, Route Group in Basic API
+
+----------------------------------------------------------------------------------
+
+# Create Commend
+
+## Controller
+
+php artisan make:controller ArticleController
+
+----------------------------------------------------------------------------------
+
+# Migration
+
+php artisan make:model Article -m
+
+----------------------------------------------------------------------------------
+
+# Faker
+
+https://github.com/fzaninotto/Faker
